@@ -9,9 +9,11 @@
           <e p="AspDotnetController.cs" t="Include" />
           <e p="BaseController.cs" t="Include" />
           <e p="CController.cs" t="Include" />
+          <e p="CppController.cs" t="Include" />
           <e p="DotnetController.cs" t="Include" />
           <e p="JavaController.cs" t="Include" />
           <e p="NodejsController.cs" t="Include" />
+          <e p="PhpController.cs" t="Include" />
           <e p="PythonController.cs" t="Include" />
         </e>
         <e p="Program.cs" t="Include" />

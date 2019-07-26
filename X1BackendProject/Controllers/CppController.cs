@@ -3,9 +3,9 @@ using System.IO;
 
 namespace X1BackendProject.Controllers
 {
-    public class CController : BaseController
+    public class CppController : BaseController
     {
-        public CController(string appName, string sourceDirPath, string executableName) : base(appName, sourceDirPath)
+        public CppController(string appName, string sourceDirPath, string executableName) : base(appName, sourceDirPath)
         {
             File.AppendAllLines(
                 $"{AppPath}/Dockerfile", 

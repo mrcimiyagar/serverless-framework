@@ -138,29 +138,38 @@ namespace X1BackendProject
 
                     case "c":
                     {
-                        Console.Write("enter c file names separated by comma : ");
-                        var cFiles = Console.ReadLine() ?? "";
-
-                        var cFilesArr = cFiles.Split(",");
-                        for (var counter = 0; counter < cFilesArr.Length; counter++)
+                        Console.Write("enter executable file name : ");
+                        var execFileName = Console.ReadLine();
+                        if (string.IsNullOrEmpty(execFileName))
                         {
-                            cFilesArr[counter] = cFilesArr[counter].Trim();
+                            Console.WriteLine("executable file name can not be empty.");
+                            break;
                         }
                         
-                        var con = new CController(appName, srcPath, cFilesArr);
+                        var con = new CController(appName, srcPath, execFileName);
                         foreach (var res in con.Run()) Console.Write(res); 
                         break;
                     }
 
                     case "c++":
                     {
-
+                        Console.Write("enter executable file name : ");
+                        var execFileName = Console.ReadLine();
+                        if (string.IsNullOrEmpty(execFileName))
+                        {
+                            Console.WriteLine("executable file name can not be empty.");
+                            break;
+                        }
+                        
+                        var con = new CppController(appName, srcPath, execFileName);
+                        foreach (var res in con.Run()) Console.Write(res);
                         break;
                     }
 
                     case "php":
                     {
-
+                        var con = new PhpController(appName, srcPath);
+                        foreach (var res in con.RunWebsite(8085)) Console.Write(res);
                         break;
                     }
 

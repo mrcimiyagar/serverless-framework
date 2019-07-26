@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4ffa77b6-885c-4d69-9fcd-ca0f65b9b0f2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/LogIn.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/css/LogIn.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/css/util.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/font-awesome-4.7.0/HELP-US-OUT.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/font-awesome-4.7.0/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/font-awesome-4.7.0/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/font-awesome-4.7.0/less/animated.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/font-awesome-4.7.0/less/bordered-pulled.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/font-awesome-4.7.0/less/core.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/font-awesome-4.7.0/less/fixed-width.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/font-awesome-4.7.0/less/font-awesome.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/font-awesome-4.7.0/less/icons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/font-awesome-4.7.0/less/larger.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/font-awesome-4.7.0/less/list.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/font-awesome-4.7.0/less/mixins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/font-awesome-4.7.0/less/path.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/font-awesome-4.7.0/less/rotated-flipped.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/font-awesome-4.7.0/less/screen-reader.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/font-awesome-4.7.0/less/stacked.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/font-awesome-4.7.0/less/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/font-awesome-4.7.0/scss/_animated.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/font-awesome-4.7.0/scss/_core.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/font-awesome-4.7.0/scss/_fixed-width.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/font-awesome-4.7.0/scss/_icons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/font-awesome-4.7.0/scss/_larger.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/font-awesome-4.7.0/scss/_list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/font-awesome-4.7.0/scss/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/font-awesome-4.7.0/scss/_path.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/font-awesome-4.7.0/scss/_screen-reader.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/font-awesome-4.7.0/scss/_stacked.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/font-awesome-4.7.0/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/font-awesome-4.7.0/scss/font-awesome.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/iconic/css/material-design-iconic-font.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/iconic/css/material-design-iconic-font.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/iconic/fonts/Material-Design-Iconic-Font.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/iconic/fonts/Material-Design-Iconic-Font.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/iconic/fonts/Material-Design-Iconic-Font.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/iconic/fonts/Material-Design-Iconic-Font.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/iconic/fonts/Material-Design-Iconic-Font.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/poppins/Poppins-Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/poppins/Poppins-BlackItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/poppins/Poppins-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/poppins/Poppins-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/poppins/Poppins-ExtraBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/poppins/Poppins-ExtraBoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/poppins/Poppins-ExtraLight.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/poppins/Poppins-ExtraLightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/poppins/Poppins-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/poppins/Poppins-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/poppins/Poppins-LightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/poppins/Poppins-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/poppins/Poppins-MediumItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/poppins/Poppins-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/poppins/Poppins-SemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/poppins/Poppins-SemiBoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/poppins/Poppins-Thin.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/fonts/poppins/Poppins-ThinItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/images/bg-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/images/icons/sign-in-alt-solid.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/js/LogIn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/vendor/animate/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/vendor/animsition/css/animsition.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/vendor/animsition/css/animsition.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/vendor/animsition/js/animsition.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/vendor/animsition/js/animsition.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/vendor/bootstrap/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/vendor/bootstrap/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/vendor/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/vendor/bootstrap/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/vendor/bootstrap/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/vendor/bootstrap/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/vendor/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/vendor/bootstrap/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/vendor/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/vendor/bootstrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/vendor/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/vendor/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/vendor/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/vendor/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/vendor/bootstrap/js/popper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/vendor/bootstrap/js/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/vendor/bootstrap/js/tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/vendor/countdowntime/countdowntime.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/vendor/css-hamburgers/hamburgers.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/vendor/css-hamburgers/hamburgers.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/vendor/daterangepicker/daterangepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/vendor/daterangepicker/daterangepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/vendor/daterangepicker/moment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/vendor/daterangepicker/moment.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/vendor/jquery/jquery-3.2.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/vendor/perfect-scrollbar/perfect-scrollbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/vendor/perfect-scrollbar/perfect-scrollbar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/vendor/select2/select2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/vendor/select2/select2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/vendor/select2/select2.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/Front/LogIn/vendor/select2/select2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/X1BackendProject/README.md" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/X1BackendProject/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="143" column="46" selection-start-line="143" selection-start-column="46" selection-end-line="143" selection-end-column="46" />
+              <folding>
+                <marker date="1564150250246" expanded="false" signature="6:92" ph="..." />
+                <marker date="1564150250246" expanded="true" signature="120:7041" ph="{...}" />
+                <marker date="1564150250246" expanded="true" signature="140:7039" ph="{...}" />
+                <marker date="1564150250246" expanded="true" signature="186:7033" ph="{...}" />
+                <marker date="1564150250246" expanded="true" signature="221:7023" ph="{...}" />
+                <marker date="1564150250246" expanded="true" signature="388:520" ph="{...}" />
+                <marker date="1564150250246" expanded="true" signature="870:1005" ph="{...}" />
+                <marker date="1564150250246" expanded="true" signature="1181:1315" ph="{...}" />
+                <marker date="1564150250246" expanded="true" signature="1351:6952" ph="{...}" />
+                <marker date="1564150250246" expanded="true" signature="1623:1795" ph="{...}" />
+                <marker date="1564150250246" expanded="true" signature="2237:2405" ph="{...}" />
+                <marker date="1564150250246" expanded="true" signature="2582:2746" ph="{...}" />
+                <marker date="1564150250246" expanded="true" signature="3232:3400" ph="{...}" />
+                <marker date="1564150250246" expanded="true" signature="3577:3741" ph="{...}" />
+                <marker date="1564150250246" expanded="true" signature="4254:4426" ph="{...}" />
+                <marker date="1564150250246" expanded="true" signature="4930:5102" ph="{...}" />
+                <marker date="1564150250246" expanded="true" signature="5419:5543" ph="{...}" />
+                <marker date="1564150250246" expanded="true" signature="6140:6268" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/X1BackendProject/Controllers/CController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+              <folding>
+                <marker date="1564150250174" expanded="false" signature="6:30" ph="..." />
+                <marker date="1564150250174" expanded="true" signature="70:982" ph="{...}" />
+                <marker date="1564150250174" expanded="true" signature="118:980" ph="{...}" />
+                <marker date="1564150250174" expanded="true" signature="237:974" ph="{...}" />
+                <marker date="1564150250174" expanded="true" signature="524:766" ph="{...}" />
+                <marker date="1564150250174" expanded="true" signature="867:931" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/X1BackendProject/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/X1BackendProject/Controllers/NodejsController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/X1BackendProject/ShellHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/X1BackendProject/Controllers/PythonController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/X1BackendProject/Controllers/DotnetController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/X1BackendProject/Controllers/AspDotnetController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/X1BackendProject/Tools.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/X1BackendProject/Controllers/BaseController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/X1BackendProject/Controllers/CController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/X1BackendProject/Controllers/JavaController.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/X1BackendProject/Tools.cs" />
+        <option value="$PROJECT_DIR$/X1BackendProject/seeds/dotnet/Dockerfile" />
+        <option value="$PROJECT_DIR$/X1BackendProject/ShellHelper.cs" />
+        <option value="$PROJECT_DIR$/X1BackendProject/containers/asp-sample/Dockerfile" />
+        <option value="$PROJECT_DIR$/X1BackendProject/Controllers/BaseController.cs" />
+        <option value="$PROJECT_DIR$/X1BackendProject/Controllers/JavaController.cs" />
+        <option value="$PROJECT_DIR$/X1BackendProject/Controllers/DotnetController.cs" />
+        <option value="$PROJECT_DIR$/X1BackendProject/Controllers/AspDotnetController.cs" />
+        <option value="$PROJECT_DIR$/X1BackendProject/containers/kasper/kasper-find-ip.js" />
+        <option value="$PROJECT_DIR$/X1BackendProject/Controllers/NodejsController.cs" />
+        <option value="$PROJECT_DIR$/X1BackendProject/Controllers/PythonController.cs" />
+        <option value="$PROJECT_DIR$/X1BackendProject/Controllers/CController.cs" />
+        <option value="$PROJECT_DIR$/X1BackendProject/Program.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="50" />
+    <option name="y" value="27" />
+    <option name="width" value="1870" />
+    <option name="height" value="1053" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AssemblyExplorer" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="X1BackendProject" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="X1BackendProject" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="X1BackendProject" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Project.Default">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/X1BackendProject/bin/Debug/netcoreapp2.2/X1BackendProject.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/X1BackendProject" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/X1BackendProject/X1BackendProject.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.2" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="java-base/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="buildCliOptions" value="" />
+          <option name="command" value="" />
+          <option name="containerName" value="" />
+          <option name="entrypoint" value="" />
+          <option name="imageTag" value="" />
+          <option name="commandLineOptions" value="" />
+          <option name="sourceFilePath" value="X1BackendProject/seeds/java-base/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.java-base/Dockerfile" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4ffa77b6-885c-4d69-9fcd-ca0f65b9b0f2" name="Default Changelist" comment="" />
+      <created>1563814159356</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563814159356</updated>
+      <workItem from="1563814162367" duration="3462000" />
+      <workItem from="1564047089058" duration="11264000" />
+      <workItem from="1564064640367" duration="2420000" />
+      <workItem from="1564067256171" duration="3475000" />
+      <workItem from="1564074368310" duration="3351000" />
+      <workItem from="1564124991729" duration="18105000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="42077000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="50" y="27" width="1870" height="1053" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19353071" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33045357" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39956802" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" weight="0.3297414" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="13" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="15" weight="0.32937366" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/X1BackendProject/Tools.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <marker date="1563815487429" expanded="true" signature="44:1548" ph="{...}" />
+            <marker date="1563815487429" expanded="true" signature="69:1546" ph="{...}" />
+            <marker date="1563815487429" expanded="true" signature="181:1540" ph="{...}" />
+            <marker date="1563815487429" expanded="true" signature="354:552" ph="{...}" />
+            <marker date="1563815487429" expanded="true" signature="728:812" ph="{...}" />
+            <marker date="1563815487429" expanded="true" signature="994:1140" ph="{...}" />
+            <marker date="1563815487429" expanded="true" signature="1258:1530" ph="{...}" />
+            <marker date="1563815487429" expanded="true" signature="1327:1516" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/X1BackendProject/seeds/dotnet/Dockerfile" />
+    <entry file="file://$PROJECT_DIR$/X1BackendProject/seeds/java-base/Dockerfile" />
+    <entry file="file://$PROJECT_DIR$/X1BackendProject/containers/dotnet-sample/Dockerfile" />
+    <entry file="file://$PROJECT_DIR$/X1BackendProject/containers/dotnetsample/Dockerfile" />
+    <entry file="file://$PROJECT_DIR$/X1BackendProject/ShellHelper.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="44" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="44" />
+          <folding>
+            <marker date="1564062651284" expanded="true" signature="6:59" ph="..." />
+            <marker date="1564062651284" expanded="true" signature="87:850" ph="{...}" />
+            <marker date="1564062651284" expanded="true" signature="125:848" ph="{...}" />
+            <marker date="1564062651284" expanded="true" signature="193:842" ph="{...}" />
+            <marker date="1564062651284" expanded="true" signature="326:666" ph="{...}" />
+            <marker date="1564062651284" expanded="true" signature="393:652" ph="{...}" />
+            <marker date="1564062651284" expanded="true" signature="735:832" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/X1BackendProject/containers/asp-sample/Dockerfile" />
+    <entry file="file://$PROJECT_DIR$/X1BackendProject/containers/asp/Dockerfile" />
+    <entry file="file://$PROJECT_DIR$/X1BackendProject/containers/asp/DcokerTest/.dockerignore" />
+    <entry file="file://$PROJECT_DIR$/X1BackendProject/Controllers/BaseController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="46" lean-forward="true" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+          <folding>
+            <marker date="1564068737232" expanded="true" signature="6:90" ph="..." />
+            <marker date="1564068737232" expanded="true" signature="130:699" ph="{...}" />
+            <marker date="1564068737232" expanded="true" signature="164:697" ph="{...}" />
+            <marker date="1564068737232" expanded="true" signature="335:572" ph="{...}" />
+            <marker date="1564068737232" expanded="true" signature="620:691" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/X1BackendProject/Controllers/JavaController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding>
+            <marker date="1564075674801" expanded="true" signature="6:30" ph="..." />
+            <marker date="1564075674801" expanded="true" signature="70:860" ph="{...}" />
+            <marker date="1564075674801" expanded="true" signature="121:858" ph="{...}" />
+            <marker date="1564075674801" expanded="true" signature="249:852" ph="{...}" />
+            <marker date="1564075674801" expanded="true" signature="381:644" ph="{...}" />
+            <marker date="1564075674801" expanded="true" signature="745:809" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/X1BackendProject/Controllers/DotnetController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+          <folding>
+            <marker date="1564075671037" expanded="true" signature="6:30" ph="..." />
+            <marker date="1564075671037" expanded="true" signature="70:869" ph="{...}" />
+            <marker date="1564075671037" expanded="true" signature="123:867" ph="{...}" />
+            <marker date="1564075671037" expanded="true" signature="272:861" ph="{...}" />
+            <marker date="1564075671037" expanded="true" signature="418:639" ph="{...}" />
+            <marker date="1564075671037" expanded="true" signature="754:818" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/X1BackendProject/Controllers/AspDotnetController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+          <folding>
+            <marker date="1564075672449" expanded="false" signature="6:144" ph="..." />
+            <marker date="1564075672449" expanded="true" signature="184:1498" ph="{...}" />
+            <marker date="1564075672449" expanded="true" signature="240:1496" ph="{...}" />
+            <marker date="1564075672449" expanded="true" signature="392:1339" ph="{...}" />
+            <marker date="1564075672449" expanded="true" signature="537:1117" ph="{...}" />
+            <marker date="1564075672449" expanded="true" signature="1232:1296" ph="{...}" />
+            <marker date="1564075672449" expanded="true" signature="1400:1490" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/X1BackendProject/containers/nodejs-sample/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/X1BackendProject/containers/ns7/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/X1BackendProject/containers/kasper/bin/www">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-630" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/X1BackendProject/containers/kasper/kasper-find-ip.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/X1BackendProject/Controllers/NodejsController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding>
+            <marker date="1564147242829" expanded="false" signature="6:144" ph="..." />
+            <marker date="1564147242829" expanded="true" signature="184:1157" ph="{...}" />
+            <marker date="1564147242829" expanded="true" signature="237:1155" ph="{...}" />
+            <marker date="1564147242829" expanded="true" signature="367:979" ph="{...}" />
+            <marker date="1564147242829" expanded="true" signature="497:771" ph="{...}" />
+            <marker date="1564147242829" expanded="true" signature="872:936" ph="{...}" />
+            <marker date="1564147242829" expanded="true" signature="1040:1149" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/X1BackendProject/Controllers/PythonController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+          <folding>
+            <marker date="1564148774644" expanded="false" signature="6:144" ph="..." />
+            <marker date="1564148774644" expanded="true" signature="184:1398" ph="{...}" />
+            <marker date="1564148774644" expanded="true" signature="237:1396" ph="{...}" />
+            <marker date="1564148774644" expanded="true" signature="391:1390" ph="{...}" />
+            <marker date="1564148774644" expanded="true" signature="515:645" ph="{...}" />
+            <marker date="1564148774644" expanded="true" signature="698:995" ph="{...}" />
+            <marker date="1564148774644" expanded="true" signature="903:979" ph="{...}" />
+            <marker date="1564148774644" expanded="true" signature="1109:1193" ph="{...}" />
+            <marker date="1564148774644" expanded="true" signature="1283:1347" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/X1BackendProject/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="143" column="46" selection-start-line="143" selection-start-column="46" selection-end-line="143" selection-end-column="46" />
+          <folding>
+            <marker date="1564150250246" expanded="false" signature="6:92" ph="..." />
+            <marker date="1564150250246" expanded="true" signature="120:7041" ph="{...}" />
+            <marker date="1564150250246" expanded="true" signature="140:7039" ph="{...}" />
+            <marker date="1564150250246" expanded="true" signature="186:7033" ph="{...}" />
+            <marker date="1564150250246" expanded="true" signature="221:7023" ph="{...}" />
+            <marker date="1564150250246" expanded="true" signature="388:520" ph="{...}" />
+            <marker date="1564150250246" expanded="true" signature="870:1005" ph="{...}" />
+            <marker date="1564150250246" expanded="true" signature="1181:1315" ph="{...}" />
+            <marker date="1564150250246" expanded="true" signature="1351:6952" ph="{...}" />
+            <marker date="1564150250246" expanded="true" signature="1623:1795" ph="{...}" />
+            <marker date="1564150250246" expanded="true" signature="2237:2405" ph="{...}" />
+            <marker date="1564150250246" expanded="true" signature="2582:2746" ph="{...}" />
+            <marker date="1564150250246" expanded="true" signature="3232:3400" ph="{...}" />
+            <marker date="1564150250246" expanded="true" signature="3577:3741" ph="{...}" />
+            <marker date="1564150250246" expanded="true" signature="4254:4426" ph="{...}" />
+            <marker date="1564150250246" expanded="true" signature="4930:5102" ph="{...}" />
+            <marker date="1564150250246" expanded="true" signature="5419:5543" ph="{...}" />
+            <marker date="1564150250246" expanded="true" signature="6140:6268" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/X1BackendProject/Controllers/CController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding>
+            <marker date="1564150250174" expanded="false" signature="6:30" ph="..." />
+            <marker date="1564150250174" expanded="true" signature="70:982" ph="{...}" />
+            <marker date="1564150250174" expanded="true" signature="118:980" ph="{...}" />
+            <marker date="1564150250174" expanded="true" signature="237:974" ph="{...}" />
+            <marker date="1564150250174" expanded="true" signature="524:766" ph="{...}" />
+            <marker date="1564150250174" expanded="true" signature="867:931" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

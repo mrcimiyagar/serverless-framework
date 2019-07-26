@@ -43,7 +43,7 @@
         <entry file="file://$PROJECT_DIR$/X1BackendProject/Controllers/CController.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
               <folding>
                 <marker date="1564150250174" expanded="false" signature="6:30" ph="..." />
                 <marker date="1564150250174" expanded="true" signature="70:982" ph="{...}" />
@@ -59,7 +59,7 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/X1BackendProject/containers/nodejs" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/X1BackendProject/Program.cs" root0="FORCE_HIGHLIGHTING" />
@@ -116,12 +116,6 @@
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="X1BackendProject" type="24d0babc:SolutionExplorerModelNode" />
               <item name="X1BackendProject" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="X1BackendProject" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="X1BackendProject" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Controllers" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
@@ -203,12 +197,12 @@
       <workItem from="1564064640367" duration="2420000" />
       <workItem from="1564067256171" duration="3475000" />
       <workItem from="1564074368310" duration="3351000" />
-      <workItem from="1564124991729" duration="17371000" />
+      <workItem from="1564124991729" duration="17727000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41343000" />
+    <option name="totallyTimeSpent" value="41699000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -221,7 +215,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="50" y="27" width="1870" height="1053" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19353071" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -456,7 +449,7 @@
     <entry file="file://$PROJECT_DIR$/X1BackendProject/Controllers/CController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
           <folding>
             <marker date="1564150250174" expanded="false" signature="6:30" ph="..." />
             <marker date="1564150250174" expanded="true" signature="70:982" ph="{...}" />

@@ -1,0 +1,57 @@
+version: "3.4"
+
+networks:
+  koon:
+    driver: bridge
+
+services:
+
+  koon_postgres_image:
+    container_name: koon_postgres_image
+    image: postgres:11
+    ports:
+      - 5432
+    restart: always
+    volumes:
+      - postgres_db_volume:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "3g5h165tsK65j1s564L69ka5R168kk37sut5ls3Sk2t"
+      POSTGRES_DB: "postgres"
+    networks:
+      - koon
+
+  koon_mysql_image:
+    container_name: koon_mysql_image
+    image: mysql:5.7
+    command: mysqld
+    environment:
+      MYSQL_RANDOM_ROOT_PASSWORD: 1
+      MYSQL_DATABASE: keyhan
+      MYSQL_USER: keyhan
+      MYSQL_PASSWORD: 3g5h165tsK65j1s564L69ka5R168kk37sut5ls3Sk2t
+    volumes:
+      - mysql_db_volume:/var/lib/mysql
+      - ./_MySQL_Init_Script:/docker-entrypoint-initdb.d
+    restart: always
+    networks:
+      - koon
+  koon:
+    container_name: koon
+    image: koon:latest
+    depends_on:
+      - "koon_postgres_image"
+      - "koon_mysql_image"
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      POSTGRES_HOST: koon_postgres_image
+      MYSQL_HOST: koon_mysql_image
+    networks:
+      - koon
+volumes:
+  postgres_db_volume:
+  mysql_db_volume:

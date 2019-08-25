@@ -1,0 +1,9 @@
+/home/keyhan/Desktop/TestCsharpSolution/SharedArea/bin/Release/netcoreapp2.2/SharedArea.deps.json
+/home/keyhan/Desktop/TestCsharpSolution/SharedArea/bin/Release/netcoreapp2.2/SharedArea.dll
+/home/keyhan/Desktop/TestCsharpSolution/SharedArea/bin/Release/netcoreapp2.2/SharedArea.pdb
+/home/keyhan/Desktop/TestCsharpSolution/SharedArea/obj/Release/netcoreapp2.2/SharedArea.csprojAssemblyReference.cache
+/home/keyhan/Desktop/TestCsharpSolution/SharedArea/obj/Release/netcoreapp2.2/SharedArea.csproj.CoreCompileInputs.cache
+/home/keyhan/Desktop/TestCsharpSolution/SharedArea/obj/Release/netcoreapp2.2/SharedArea.AssemblyInfoInputs.cache
+/home/keyhan/Desktop/TestCsharpSolution/SharedArea/obj/Release/netcoreapp2.2/SharedArea.AssemblyInfo.cs
+/home/keyhan/Desktop/TestCsharpSolution/SharedArea/obj/Release/netcoreapp2.2/SharedArea.dll
+/home/keyhan/Desktop/TestCsharpSolution/SharedArea/obj/Release/netcoreapp2.2/SharedArea.pdb

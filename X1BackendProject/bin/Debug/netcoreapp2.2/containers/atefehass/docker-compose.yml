@@ -1,0 +1,33 @@
+version: "3.4"
+
+networks:
+  atefehass:
+    driver: bridge
+
+services:
+
+  atefehass_sqlserver_image:
+    container_name: atefehass_sqlserver_image
+    image: "mcr.microsoft.com/mssql/server"
+    environment:
+      SA_PASSWORD: "3g5h165tsK65j1s564L69ka5R168kk37sut5ls3Sk2t"
+      ACCEPT_EULA: "Y"
+    restart: always
+    networks:
+      - atefehass
+  atefehass:
+    container_name: atefehass
+    image: atefehass:latest
+    depends_on:
+      - "atefehass_sqlserver_image"
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      SQLSERVER_HOST: atefehass_sqlserver_image
+    networks:
+      - atefehass
+volumes:
+  sqlserver_db_volume:

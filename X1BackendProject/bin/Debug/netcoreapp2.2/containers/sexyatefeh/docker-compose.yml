@@ -1,0 +1,58 @@
+version: "3.4"
+
+networks:
+  sexyatefeh:
+    driver: bridge
+
+services:
+
+  sexyatefeh_postgres_image:
+    container_name: sexyatefeh_postgres_image
+    image: postgres:11
+    ports:
+      - 5432
+    restart: always
+    volumes:
+      - postgres_db_volume:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "3g5h165tsK65j1s564L69ka5R168kk37sut5ls3Sk2t"
+      POSTGRES_DB: "postgres"
+    networks:
+      - sexyatefeh
+
+  sexyatefeh_mysql_image:
+    container_name: sexyatefeh_mysql_image
+    image: mysql
+    command: mysqld --default-authentication-plugin=mysql_native_password
+    environment:
+      MYSQL_RANDOM_ROOT_PASSWORD: 3g5h165tsK65j1s564L69ka5R168kk37sut5ls3Sk2t
+      MYSQL_ROOT_PASSWORD: 3g5h165tsK65j1s564L69ka5R168kk37sut5ls3Sk2t
+      MYSQL_DATABASE: root
+      MYSQL_USER: root
+      MYSQL_PASSWORD: 3g5h165tsK65j1s564L69ka5R168kk37sut5ls3Sk2t
+    volumes:
+      - mysql_db_volume:/var/lib/mysql
+      - ./_MySQL_Init_Script:/docker-entrypoint-initdb.d
+    restart: always
+    networks:
+      - sexyatefeh
+  sexyatefeh:
+    container_name: sexyatefeh
+    image: sexyatefeh:latest
+    depends_on:
+      - "sexyatefeh_postgres_image"
+      - "sexyatefeh_mysql_image"
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      POSTGRES_HOST: sexyatefeh_postgres_image
+      MYSQL_HOST: sexyatefeh_mysql_image
+    networks:
+      - sexyatefeh
+volumes:
+  postgres_db_volume:
+  mysql_db_volume:

@@ -1,0 +1,32 @@
+version: "3.4"
+
+networks:
+  keyhanlayeatefeh:
+    driver: bridge
+
+services:
+  keyhanlayeatefeh_mongodb_image:
+    container_name: keyhanlayeatefeh_mongodb_image
+    image: mongo
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: aseman
+      MONGO_INITDB_ROOT_PASSWORD: 3x2fG1b65sg4hN68sr4yj8j6k5Bstul4yi56l453tsK5346u5s4R648j
+    restart: always
+    networks:
+      - keyhanlayeatefeh
+  keyhanlayeatefeh:
+    container_name: keyhanlayeatefeh
+    image: keyhanlayeatefeh:latest
+    depends_on:
+      - "keyhanlayeatefeh_mongodb_image"
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      MONGODB_HOST: keyhanlayeatefeh_mongodb_image
+    networks:
+      - keyhanlayeatefeh
+volumes:
+  mongodb_db_volume:

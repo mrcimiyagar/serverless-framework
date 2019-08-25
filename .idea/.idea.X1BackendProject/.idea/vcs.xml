@@ -2,6 +2,23 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/X1BackendProject/bin/Debug/netcoreapp2.2/containers/angle" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/X1BackendProject/bin/Debug/netcoreapp2.2/containers/ar" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/X1BackendProject/bin/Debug/netcoreapp2.2/containers/at" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/X1BackendProject/bin/Debug/netcoreapp2.2/containers/at-ra" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/X1BackendProject/bin/Debug/netcoreapp2.2/containers/atefeh" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/X1BackendProject/bin/Debug/netcoreapp2.2/containers/hehe" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/X1BackendProject/bin/Debug/netcoreapp2.2/containers/heyo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/X1BackendProject/bin/Debug/netcoreapp2.2/containers/little-atefeh" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/X1BackendProject/bin/Debug/netcoreapp2.2/containers/love" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/X1BackendProject/bin/Debug/netcoreapp2.2/containers/my-doll" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/X1BackendProject/bin/Debug/netcoreapp2.2/containers/my-girl" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/X1BackendProject/bin/Debug/netcoreapp2.2/containers/mylove" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/X1BackendProject/bin/Debug/netcoreapp2.2/containers/s-atefeh" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/X1BackendProject/bin/Debug/netcoreapp2.2/containers/sexy" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/X1BackendProject/bin/Debug/netcoreapp2.2/containers/test" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/X1BackendProject/bin/Debug/netcoreapp2.2/containers/test-indexer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/X1BackendProject/bin/Debug/netcoreapp2.2/containers/white-atefeh" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/X1BackendProject/containers/nodejs" vcs="Git" />
   </component>
 </project>

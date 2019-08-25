@@ -1,0 +1,32 @@
+version: "3.4"
+
+networks:
+  kooneatefeh:
+    driver: bridge
+
+services:
+  kooneatefeh_mongodb_image:
+    container_name: kooneatefeh_mongodb_image
+    image: mongo
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: aseman
+      MONGO_INITDB_ROOT_PASSWORD: 3x2fG1b65sg4hN68sr4yj8j6k5Bstul4yi56l453tsK5346u5s4R648j
+    restart: always
+    networks:
+      - kooneatefeh
+  kooneatefeh:
+    container_name: kooneatefeh
+    image: kooneatefeh:latest
+    depends_on:
+      - "kooneatefeh_mongodb_image"
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:3000"
+    environment:
+      MONGODB_HOST: kooneatefeh_mongodb_image
+    networks:
+      - kooneatefeh
+volumes:
+  mongodb_db_volume:

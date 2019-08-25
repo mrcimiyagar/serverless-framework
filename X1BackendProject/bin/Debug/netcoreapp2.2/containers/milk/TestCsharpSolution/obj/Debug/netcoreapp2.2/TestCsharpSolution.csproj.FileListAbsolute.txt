@@ -1,0 +1,14 @@
+/home/keyhan/Desktop/TestCsharpSolution/TestCsharpSolution/bin/Debug/netcoreapp2.2/TestCsharpSolution.deps.json
+/home/keyhan/Desktop/TestCsharpSolution/TestCsharpSolution/bin/Debug/netcoreapp2.2/TestCsharpSolution.runtimeconfig.json
+/home/keyhan/Desktop/TestCsharpSolution/TestCsharpSolution/bin/Debug/netcoreapp2.2/TestCsharpSolution.runtimeconfig.dev.json
+/home/keyhan/Desktop/TestCsharpSolution/TestCsharpSolution/bin/Debug/netcoreapp2.2/TestCsharpSolution.dll
+/home/keyhan/Desktop/TestCsharpSolution/TestCsharpSolution/bin/Debug/netcoreapp2.2/TestCsharpSolution.pdb
+/home/keyhan/Desktop/TestCsharpSolution/TestCsharpSolution/obj/Debug/netcoreapp2.2/TestCsharpSolution.csprojAssemblyReference.cache
+/home/keyhan/Desktop/TestCsharpSolution/TestCsharpSolution/obj/Debug/netcoreapp2.2/TestCsharpSolution.csproj.CoreCompileInputs.cache
+/home/keyhan/Desktop/TestCsharpSolution/TestCsharpSolution/obj/Debug/netcoreapp2.2/TestCsharpSolution.AssemblyInfoInputs.cache
+/home/keyhan/Desktop/TestCsharpSolution/TestCsharpSolution/obj/Debug/netcoreapp2.2/TestCsharpSolution.AssemblyInfo.cs
+/home/keyhan/Desktop/TestCsharpSolution/TestCsharpSolution/obj/Debug/netcoreapp2.2/TestCsharpSolution.dll
+/home/keyhan/Desktop/TestCsharpSolution/TestCsharpSolution/obj/Debug/netcoreapp2.2/TestCsharpSolution.pdb
+/home/keyhan/Desktop/TestCsharpSolution/TestCsharpSolution/bin/Debug/netcoreapp2.2/SharedArea.dll
+/home/keyhan/Desktop/TestCsharpSolution/TestCsharpSolution/bin/Debug/netcoreapp2.2/SharedArea.pdb
+/home/keyhan/Desktop/TestCsharpSolution/TestCsharpSolution/obj/Debug/netcoreapp2.2/TestCsharpSolution.csproj.CopyComplete

@@ -1,0 +1,56 @@
+version: "3.4"
+
+networks:
+  atefehmilky:
+    driver: bridge
+
+services:
+  atefehmilky:
+    container_name: atefehmilky
+    image: atefehmilky:latest
+    depends_on:
+      - "atefehmilky_postgres_image"
+      - "atefehmilky_mysql_image"
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      POSTGRES_HOST: atefehmilky_postgres_image
+      MYSQL_HOST: atefehmilky_mysql_image
+    networks:
+      - atefehmilky
+
+  atefehmilky_postgres_image:
+    container_name: atefehmilky_postgres_image
+    image: postgres:11
+    ports:
+      - 5432
+    restart: always
+    volumes:
+      - postgres_db_volume:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "3g5h165tsK65j1s564L69ka5R168kk37sut5ls3Sk2t"
+      POSTGRES_DB: "postgres"
+    networks:
+      - atefehmilky
+
+  atefehmilky_mysql_image:
+    container_name: atefehmilky_mysql_image
+    image: mysql:5.7
+    environment:
+      MYSQL_RANDOM_ROOT_PASSWORD: 1
+      MYSQL_DATABASE: root
+      MYSQL_USER: root
+      MYSQL_PASSWORD: 3g5h165tsK65j1s564L69ka5R168kk37sut5ls3Sk2t
+    volumes:
+      - mysql_db_volume:/var/lib/mysql
+      - ./_MySQL_Init_Script:/docker-entrypoint-initdb.d
+    restart: always
+    networks:
+      - atefehmilky
+volumes:
+  postgres_db_volume:
+  mysql_db_volume:

@@ -1,0 +1,56 @@
+version: "3.4"
+
+networks:
+  hmmhmm:
+    driver: bridge
+
+services:
+
+  hmmhmm_postgres_image:
+    container_name: hmmhmm_postgres_image
+    image: postgres:11
+    ports:
+      - 5432
+    restart: always
+    volumes:
+      - postgres_db_volume:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "3g5h165tsK65j1s564L69ka5R168kk37sut5ls3Sk2t"
+      POSTGRES_DB: "postgres"
+    networks:
+      - hmmhmm
+
+  hmmhmm_mysql_image:
+    container_name: hmmhmm_mysql_image
+    image: mysql:5.7
+    environment:
+      MYSQL_RANDOM_ROOT_PASSWORD: 1
+      MYSQL_DATABASE: keyhan
+      MYSQL_USER: keyhan
+      MYSQL_PASSWORD: 3g5h165tsK65j1s564L69ka5R168kk37sut5ls3Sk2t
+    volumes:
+      - mysql_db_volume:/var/lib/mysql
+      - ./_MySQL_Init_Script:/docker-entrypoint-initdb.d
+    restart: always
+    networks:
+      - hmmhmm
+  hmmhmm:
+    container_name: hmmhmm
+    image: hmmhmm:latest
+    depends_on:
+      - "hmmhmm_postgres_image"
+      - "hmmhmm_mysql_image"
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      POSTGRES_HOST: hmmhmm_postgres_image
+      MYSQL_HOST: hmmhmm_mysql_image
+    networks:
+      - hmmhmm
+volumes:
+  postgres_db_volume:
+  mysql_db_volume:

@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCsharpSolution", "TestCsharpSolution\TestCsharpSolution.csproj", "{AD7C813C-666F-40DC-BB18-F39F49643980}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedArea", "SharedArea\SharedArea.csproj", "{570AE02B-AB43-44CC-A8A7-8DF269116D3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD7C813C-666F-40DC-BB18-F39F49643980}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD7C813C-666F-40DC-BB18-F39F49643980}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD7C813C-666F-40DC-BB18-F39F49643980}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD7C813C-666F-40DC-BB18-F39F49643980}.Release|Any CPU.Build.0 = Release|Any CPU
+		{570AE02B-AB43-44CC-A8A7-8DF269116D3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{570AE02B-AB43-44CC-A8A7-8DF269116D3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{570AE02B-AB43-44CC-A8A7-8DF269116D3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{570AE02B-AB43-44CC-A8A7-8DF269116D3B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

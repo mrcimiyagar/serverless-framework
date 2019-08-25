@@ -1,0 +1,50 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/home/keyhan/Desktop/TestCsharpSolution/TestCsharpSolution/TestCsharpSolution.csproj",
+    "projectName": "TestCsharpSolution",
+    "projectPath": "/home/keyhan/Desktop/TestCsharpSolution/TestCsharpSolution/TestCsharpSolution.csproj",
+    "outputPath": "/home/keyhan/Desktop/TestCsharpSolution/TestCsharpSolution/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.2"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp2.2": {
+        "projectReferences": {
+          "/home/keyhan/Desktop/TestCsharpSolution/SharedArea/SharedArea.csproj": {
+            "projectPath": "/home/keyhan/Desktop/TestCsharpSolution/SharedArea/SharedArea.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.2": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

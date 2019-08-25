@@ -1,20 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="$USER_HOME$/.Rider2019.1/system/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/.Rider2019.1/system/resharper-host/local/Transient/ReSharperHost/v191/SolutionCaches/_X1BackendProject.-466915125.00" t="ExcludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/scratches" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2019.2/system/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2019.2/system/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_X1BackendProject.-466915125.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="X1BackendProject" t="IncludeRecursive">
-        <e p="Controllers" t="Include">
-          <e p="AspDotnetController.cs" t="Include" />
-          <e p="BaseController.cs" t="Include" />
-          <e p="CController.cs" t="Include" />
-          <e p="CppController.cs" t="Include" />
-          <e p="DotnetController.cs" t="Include" />
-          <e p="JavaController.cs" t="Include" />
-          <e p="NodejsController.cs" t="Include" />
-          <e p="PhpController.cs" t="Include" />
-          <e p="PythonController.cs" t="Include" />
+        <e p="ComposerWriter" t="Include">
+          <e p="DatabaseDepHandler.cs" t="Include" />
+          <e p="DatabaseEnvHandler.cs" t="Include" />
+          <e p="DatabaseHandler.cs" t="Include" />
+          <e p="DatabaseVolHandler.cs" t="Include" />
+          <e p="MainComWriter.cs" t="Include" />
+        </e>
+        <e p="DockerfileWriter" t="Include">
+          <e p="LangHandlers" t="Include">
+            <e p="AspDotnetController.cs" t="Include" />
+            <e p="BaseController.cs" t="Include" />
+            <e p="CController.cs" t="Include" />
+            <e p="CppController.cs" t="Include" />
+            <e p="DotnetController.cs" t="Include" />
+            <e p="JavaController.cs" t="Include" />
+            <e p="NodejsController.cs" t="Include" />
+            <e p="PhpController.cs" t="Include" />
+            <e p="PythonController.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Models" t="Include">
+          <e p="DatabaseConfig.cs" t="Include" />
+          <e p="Databases.cs" t="Include" />
         </e>
         <e p="Program.cs" t="Include" />
         <e p="ShellHelper.cs" t="Include" />

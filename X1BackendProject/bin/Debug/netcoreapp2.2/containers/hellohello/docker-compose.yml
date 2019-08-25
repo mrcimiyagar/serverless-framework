@@ -1,0 +1,54 @@
+version: "3.4"
+
+networks:
+  hellohello:
+    driver: bridge
+
+services:
+
+  hellohello_postgres_image:
+    container_name: hellohello_postgres_image
+    image: postgres:11
+    ports:
+      - 5432
+    restart: always
+    volumes:
+      - postgres_db_volume:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "3g5h165tsK65j1s564L69ka5R168kk37sut5ls3Sk2t"
+      POSTGRES_DB: "postgres"
+    networks:
+      - hellohello
+
+  hellohello_mysql_image:
+    container_name: hellohello_mysql_image
+    image: mysql
+    command: mysqld --default-authentication-plugin=mysql_native_password
+    environment:
+      MYSQL_ROOT_PASSWORD: 3g5h165tsK65j1s564L69ka5R168kk37sut5ls3Sk2t
+    volumes:
+      - mysql_db_volume:/var/lib/mysql
+      - ./_MySQL_Init_Script:/docker-entrypoint-initdb.d
+    restart: always
+    networks:
+      - hellohello
+  hellohello:
+    container_name: hellohello
+    image: hellohello:latest
+    depends_on:
+      - "hellohello_postgres_image"
+      - "hellohello_mysql_image"
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      POSTGRES_HOST: hellohello_postgres_image
+      MYSQL_HOST: hellohello_mysql_image
+    networks:
+      - hellohello
+volumes:
+  postgres_db_volume:
+  mysql_db_volume:

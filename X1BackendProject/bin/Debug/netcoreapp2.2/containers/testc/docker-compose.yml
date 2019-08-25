@@ -1,0 +1,53 @@
+version: "3.4"
+
+networks:
+  testc:
+    driver: bridge
+
+services:
+  testc:
+    container_name: testc
+    image: testc:latest
+    depends_on:
+      - "testc_postgres_image"
+      - "testc_mysql_image"
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    networks:
+      - testc
+
+  testc_postgres_image:
+    container_name: testc_postgres_image
+    image: postgres:11
+    ports:
+      - 5432
+    restart: always
+    volumes:
+      - postgres_db_volume:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "3g5h165tsK65j1s564L69ka5R168kk37sut5ls3Sk2t"
+      POSTGRES_DB: "postgres"
+    networks:
+      - testc
+
+  testc_mysql_image:
+    container_name: testc_mysql_image
+    image: mysql:5.7
+    environment:
+      MYSQL_RANDOM_ROOT_PASSWORD: 1
+      MYSQL_DATABASE: root
+      MYSQL_USER: root
+      MYSQL_PASSWORD: 3g5h165tsK65j1s564L69ka5R168kk37sut5ls3Sk2t
+    volumes:
+      - mysql_db_volume:/var/lib/mysql
+      - ./_MySQL_Init_Script:/docker-entrypoint-initdb.d
+    restart: always
+    networks:
+      - testc
+volumes:
+  postgres_db_volume:
+  mysql_db_volume:

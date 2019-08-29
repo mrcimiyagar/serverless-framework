@@ -33,7 +33,7 @@ height: 100%; }
     transition-duration: 0s !important;
 }
 .nav-item>a {
-    color:#ddd !important;
+    color:inherit !important;
     padding-bottom: 20px;
    
 }
@@ -42,10 +42,9 @@ height: 100%; }
     color:white !important;
     
 }
-.nav-item>a:hover  {
-    color:inherit;
-}
+
 .nav-item{
+    color:#ddd !important;
     padding-bottom: 0px;
 }
 .active{
@@ -63,6 +62,7 @@ height: 100%; }
  }
 #logIn{
     text-align: center;
+    padding-bottom:12px; 
 }
 #logIn>a{
     padding: 8px;

@@ -19,9 +19,12 @@ height: 100%; }
 
 /* Navbar animation */
 .navbar {
-    background-color: rgba(0, 0, 0, 0.2);
+    /* background-color: rgba(0, 0, 0, 0.2); */
     padding-bottom: 0 !important;
     box-shadow: none !important;    
+}
+.navbar-toggler{
+    padding-bottom: 10px;
 }
 .navbar-nav>li{
     transition-duration: 0s !important;
@@ -29,41 +32,54 @@ height: 100%; }
 .navbar-nav>li>a:hover{
     transition-duration: 0s !important;
 }
-.nav-item {
-    color: white;
+.nav-item>a {
+    color:#ddd !important;
+    padding-bottom: 20px;
    
 }
 .nav-item:hover  {
     border-bottom: solid white;
     color:white !important;
+    
 }
 .nav-item>a:hover  {
-    color:white !important;
+    color:inherit;
 }
 .nav-item{
-    padding-bottom: 12px;
+    padding-bottom: 0px;
 }
 .active{
     border-bottom:solid  white;
     
+    
 }
 .active > a {
     background-color: inherit !important;
+    color: white !important;
 }
 .top-nav-collapse {
-    background-color: #1C2331; }
-#signUp:hover{
+    background-color: rgb(27, 32, 73);
+    padding-top: 12px !important;
+ }
+#logIn{
+    text-align: center;
+}
+#logIn>a{
+    padding: 8px;
+
+}
+#logIn:hover{
     border: 0px;
 }
-#signUp>a:hover{
+#logIn>a:hover{
     border: solid 2px;
 }
 
 /* Adding color to the Navbar on mobile */
 @media only screen and (max-width: 768px) {
 .navbar {
-    background-color: #1C2331; } }
+    background-color:rgb(27, 32, 73); } }
 
 /* Footer color for sake of consistency with Navbar */
 .page-footer {
-background-color: #1C2331; }
+background-color: rgb(27, 32, 73); }

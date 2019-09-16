@@ -5,6 +5,72 @@
     <e p="$USER_HOME$/.Rider2019.2/system/extResources" t="IncludeRecursive" />
     <e p="$USER_HOME$/.Rider2019.2/system/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_X1BackendProject.-466915125.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="BackEnd" t="IncludeRecursive">
+        <e p="BackEnd.csproj" t="IncludeRecursive" />
+        <e p="ComposerWriter" t="Include">
+          <e p="DatabaseDepHandler.cs" t="Include" />
+          <e p="DatabaseEnvHandler.cs" t="Include" />
+          <e p="DatabaseHandler.cs" t="Include" />
+          <e p="DatabaseVolHandler.cs" t="Include" />
+          <e p="MainComWriter.cs" t="Include" />
+        </e>
+        <e p="Controllers" t="Include">
+          <e p="AuthController.cs" t="Include" />
+          <e p="ProjectController.cs" t="Include" />
+        </e>
+        <e p="DbContexts" t="Include">
+          <e p="DatabaseContext.cs" t="Include" />
+        </e>
+        <e p="DockerfileWriter" t="Include">
+          <e p="LangHandlers" t="Include">
+            <e p="AspDotnetController.cs" t="Include" />
+            <e p="BaseController.cs" t="Include" />
+            <e p="CController.cs" t="Include" />
+            <e p="CppController.cs" t="Include" />
+            <e p="DotnetController.cs" t="Include" />
+            <e p="JavaController.cs" t="Include" />
+            <e p="NodejsController.cs" t="Include" />
+            <e p="PhpController.cs" t="Include" />
+            <e p="PythonController.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Models" t="Include">
+          <e p="Database" t="Include">
+            <e p="Pending.cs" t="Include" />
+            <e p="Project.cs" t="Include" />
+            <e p="Session.cs" t="Include" />
+            <e p="User.cs" t="Include" />
+          </e>
+          <e p="Modules" t="Include">
+            <e p="DatabaseConfig.cs" t="Include" />
+            <e p="Databases.cs" t="Include" />
+          </e>
+          <e p="Packet.cs" t="Include" />
+          <e p="ReqAuth.cs" t="Include" />
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="ShellHelper.cs" t="Include" />
+        <e p="Startup.cs" t="Include" />
+        <e p="Tools" t="Include">
+          <e p="DirectoryHandler.cs" t="Include" />
+          <e p="Security.cs" t="Include" />
+          <e p="Support.cs" t="Include" />
+        </e>
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="containers" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="BackEnd.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
       <e p="X1BackendProject" t="IncludeRecursive">
         <e p="ComposerWriter" t="Include">
           <e p="DatabaseDepHandler.cs" t="Include" />

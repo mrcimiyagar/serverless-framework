@@ -17,5 +17,6 @@ namespace BackEnd.Models
         public User User { get; set; }
         public Project Project { get; set; }
         public List<Project> Projects { get; set; }
+        public FileHandle FileHandle { get; set; }
     }
 }
